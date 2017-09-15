@@ -8,7 +8,7 @@ originalSheet0 = originalWorkbook.sheet_by_index(0)
 
 print('Value at (0,0): {0}'.format(originalSheet0.cell(0,0).value))
 
-# write only support xls extension
+# write only supports xls extension
 wb = copy(originalWorkbook)
 
 sheet = wb.get_sheet(0)
